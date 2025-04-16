@@ -77,7 +77,6 @@ onBeforeUnmount(() => {
           frameborder="0"
           allowfullscreen
         ></iframe>
-        <div v-html="video.embed"></div>
         <h3>{{ video.title }}</h3>
         <div class="video-category">
           <p>{{ video.category }}</p>
